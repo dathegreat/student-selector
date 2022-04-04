@@ -3,6 +3,10 @@ body{
     align-items: center;
     align-content: center;
     flex-direction: column;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
 }
 
 .result{
@@ -14,7 +18,7 @@ body{
     margin: 2em;
     font: 1.5em Verdana, sans-serif;
     color: white;
-    background-color: seagreen;
+    background-color: rgb(0, 95, 115);
     border: none;
     border-radius: 0.5em;
     box-shadow: 0.1em 0.1em rgba(0,0,0,0.5);
@@ -22,4 +26,27 @@ body{
 
 label{
     font: 1em Verdana, sans-serif;
+}
+
+.title{
+    font: 3em Verdana, sans-serif;
+    color:rgba(233, 216, 166, 0.5);
+    text-shadow: 0.01em 0.01em rgba(155, 34, 38, 0.5), 0.02em 0.02em rgba(174, 32, 18, 0.493),
+    0.03em 0.03em rgba(187, 62, 3, 0.493), 0.04em 0.04em rgba(202, 103, 2, 0.493), 
+    0.05em 0.05em rgba(238, 155, 0, 0.493), 0.06em 0.06em rgba(233, 216, 166, 0.493), 
+    0.07em 0.07em rgba(148, 210, 189, 0.493), 0.08em 0.08em rgba(10, 147, 150, 0.493), 
+    0.09em 0.09em rgba(0, 95, 115, 0.493), 0.1em 0.1em rgba(0, 18, 25, 0.493)
+}
+
+.header{
+    background-color: rgb(0, 95, 115);
+    height: 1em;
+    width: 100%;
+}
+
+.footer{
+    background-color: rgb(0, 95, 115);
+    height: 1em;
+    width: 100%;
+    flex-grow: 1;
 }
