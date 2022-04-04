@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.result{
+    margin: 2em;
+    font: 3em Verdana, sans-serif;
+}
+
+.button{
+    margin: 2em;
+    font: 1.5em Verdana, sans-serif;
+    color: white;
+    background-color: seagreen;
+    border: none;
+    border-radius: 0.5em;
+    box-shadow: 0.1em 0.1em rgba(0,0,0,0.5);
+}
+
+label{
+    font: 1em Verdana, sans-serif;
+}
